@@ -1,0 +1,3 @@
+i3 dotfiles, debian based, small font...
+
+![2025-01-24-233940_1920x1080_scrot](https://github.com/user-attachments/assets/ccb1641a-ddaa-42e8-b9ad-7d2ef12a5bc9)
