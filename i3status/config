@@ -9,12 +9,17 @@
 general {
         colors = true
         interval = 5
+
+color_good = "#aa00aa"
+color_bad = "#ff0000"
+color_degraded = "#4d4d4d"
+
 }
 
 order += "ipv6"
 order += "wireless _first_"
 order += "ethernet _first_"
-order += "battery all"
+#order += "battery all"
 order += "disk /"
 order += "load"
 order += "cpu_usage"
@@ -32,9 +37,9 @@ ethernet _first_ {
         format_down = "E: down"
 }
 
-battery all {
-        format = "%status %percentage %remaining"
-}
+#battery all {
+#        format = "%status %percentage %remaining"
+#}
 
 disk "/" {
         format = "%avail"
@@ -50,7 +55,7 @@ cpu_usage {
 
 cpu_temperature 0 {
 	format = "%degrees°C"
-	path = "/sys/class/hwmon/hwmon6/temp1_input"
+	path = "/sys/class/hwmon/hwmon4/temp1_input"
 }
 
 memory {

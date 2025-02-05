@@ -12,7 +12,7 @@ set wildmode=longest:full
 set undofile
 set mouse=a
 set clipboard=unnamedplus
-colorscheme torte 
+colorscheme zellner
 source /usr/share/doc/fzf/examples/fzf.vim
 
 "let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
