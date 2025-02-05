@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "terminus:pixelsize=10:antialias=true:autohint=true";
+static char *font = "terminus:pixelsize=16:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -120,8 +120,8 @@ static const char *colorname[] = {
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cccccc",
 	"#555555",
-	"gray90", /* default foreground colour */
-	"black", /* default background colour */
+	"black", /* default foreground colour */
+	"gray90", /* default background colour */
 };
 
 
