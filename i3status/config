@@ -10,7 +10,7 @@ general {
         colors = true
         interval = 5
 
-color_good = "#aa00aa"
+color_good = "#00ff00"
 color_bad = "#ff0000"
 color_degraded = "#4d4d4d"
 
@@ -65,5 +65,5 @@ memory {
 }
 
 tztime local {
-        format = "%Y-%m-%d %I:%M:%S %p"
+        format = "%Y-%m-%d %a %I:%M:%S %p"
 }
